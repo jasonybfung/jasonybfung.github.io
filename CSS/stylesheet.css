@@ -7,14 +7,19 @@ h1 {
 	font-weight: lighter;
 	color: #999999;
 	font-family: 'Arsenal', sans-serif;
-
-.wrapper {
-	padding: 50px;
-	height: 600px;
-	width: 800px;
+	text-decoration: none;
 }
+h2 {
+	font-size: 20px;
+	font-style: normal;
+	font-weight: lighter;
+	color: #999999;
+	font-family: 'Arsenal', sans-serif;
+
 .header {
 	clear: right;
 	width: 800px;
-	padding-left: 50px;
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-right: 10px;
 }
