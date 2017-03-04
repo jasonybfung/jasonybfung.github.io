@@ -1,20 +1,31 @@
 .stylesheet {
 }
-@font-face {font-family: Palanquin; src: url('palanquin-regular.ttf'); }
+p {
+	color: #666666;
+	font-size: 13px;
+	font-style: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+
 h1 {
+
 	font-size: 48px;
 	font-style: normal;
 	font-weight: lighter;
-	color: #999999;
+	color: #666666;
 	font-family: 'Arsenal', sans-serif;
-	text-decoration: none;
 }
+a{
+     color: #999999;
+	 text-decoration: none;
+		}
 h2 {
 	font-size: 20px;
 	font-style: normal;
 	font-weight: lighter;
 	color: #999999;
 	font-family: 'Arsenal', sans-serif;
+	
 
 .header {
 	clear: right;
