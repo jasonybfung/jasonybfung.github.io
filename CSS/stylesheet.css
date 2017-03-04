@@ -1,0 +1,20 @@
+.stylesheet {
+}
+@font-face {font-family: Palanquin; src: url('palanquin-regular.ttf'); }
+h1 {
+	font-size: 48px;
+	font-style: normal;
+	font-weight: lighter;
+	color: #999999;
+	font-family: 'Arsenal', sans-serif;
+
+.wrapper {
+	padding: 50px;
+	height: 600px;
+	width: 800px;
+}
+.header {
+	clear: right;
+	width: 800px;
+	padding-left: 50px;
+}
