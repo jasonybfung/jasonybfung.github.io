@@ -31,3 +31,14 @@ h2 {
 	margin-top: 30px;
 	margin-right: 10px;
 }
+.textdiv {
+	height: 200px;
+}
+#body div {
+	height: 500px;
+	padding: 20px;
+}
+body div {
+	padding: 20px;
+	margin: 1px;
+}
