@@ -38,16 +38,25 @@ h2 {
 	padding-bottom: 20px;
 }
 .BodyDiv {
-	height: 400px;
-	width: 800px;
 	margin-right: auto;
 	margin-left: auto;
+	height: auto;
 }
 .wrapper {
-	height: 600px;
+	min-height: 600px;
 	width: 1000px;
-	margin-right: auto;
 	margin-left: 10px;
 	background-image: url(../bg.png);
 	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: #FFFFFF;
+	background-position: right bottom;
+}
+.leftcolumn {
+	float: left;
+	width: 400px;
+}
+.rightcol {
+	float: right;
+	width: 400px;
 }
