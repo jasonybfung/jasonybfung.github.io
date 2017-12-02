@@ -2,7 +2,8 @@ p {
 	color: #4E4E4E;
 	font-size: 15px;
 	font-style: normal;
-	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 23px;
 }
 
 .indent {
@@ -35,7 +36,7 @@ h2 {
 }
 .wrapper {
 	width: 1000px;
-	margin-left: 10px;
+	margin-left: auto;
 	background-image: url(../bg.png);
 	background-attachment: scroll;
 	background-color: #FFFFFF;
@@ -43,13 +44,14 @@ h2 {
 	background-repeat: no-repeat;
 	overflow:hidden;
 	padding-bottom: 10px;
+	margin-right: auto;
 }
 .trueheader {
 	height: 100px;
-	width: 1000px;
+	width: 900px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: 20px;
+	padding-top: -20px;
 	padding-bottom: 20px;
 	background-image: url(../headerbg.png);
 	background-attachment: scroll;
@@ -58,19 +60,20 @@ h2 {
 }
 .BodyDiv {
 	min-height: 400px;
-	width: 800px;
+	width: 900px;
 	margin-right: auto;
 	margin-left: auto;
 }
 
 .leftcolumn {
-	float: left;
 	width: 387px;
-	margin-right: 10px;
+	float: left;
+	margin-left: auto;
 }
 .rightcolumn {
-	float: right;
 	width: 400px;
+	float: right;
+	margin-right: auto; 
 }
 h3 {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
@@ -85,3 +88,5 @@ h4 {
 	color: #729F68;
 	font-size: 14px;
 }
+
+html {overflow-y: scroll;}
