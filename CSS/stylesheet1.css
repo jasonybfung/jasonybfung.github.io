@@ -51,12 +51,12 @@ h2 {
 	width: 900px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: -20px;
-	padding-bottom: 20px;
 	background-image: url(../headerbg.png);
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-position: left;
+	margin-top: -30px;
+	padding-bottom: 20px;
 }
 .BodyDiv {
 	min-height: 400px;
