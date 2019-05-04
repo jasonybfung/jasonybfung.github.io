@@ -38,6 +38,16 @@ background-color: white;
 width: 600px;
 min-height: 520px;
 }
+
+.content1rscroll {
+padding-left: 15px;
+padding-top: 15px;
+padding-right: 15px;
+background-color: white;
+width: 600px;
+height: 520px;
+overflow-y:scroll;
+}
 .contentwrapper{
 display: flex;
 justify-content: center;
