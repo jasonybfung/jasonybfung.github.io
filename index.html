@@ -1,53 +1,128 @@
-<!DOCTYPE html>
-<html><!-- InstanceBegin template="/Templates/Copy of template.dwt" codeOutsideHTMLIsLocked="false" -->
-<style type="text/css">
-@import url('https://fonts.googleapis.com/css?family=Arsenal|Open+Sans');
-</style>
+<head>
+<script type="text/javascript">
+function backgr(){
+var backimg = ["1.jpg","2.jpg"];
+var randimg =Math.floor(Math.random()*2);
+document.body.background = backimg[randimg];
+}
+</script>
+
+<link href="newcss.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-<link href="CSS/stylesheet1.css" rel="stylesheet" type="text/css">
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>Jason Fung, Pianist Bio</title>
-<!-- InstanceEndEditable -->
 <style type="text/css">
 <!--
 .style1 {
-	color: #000000;
+	font-family: "Times New Roman", Times, serif;
+	color: #FFFFFF;
 	font-weight: bold;
+	font-size: 36px;
+	text-shadow: 1px 1px 15px #B18056;
+	margin-top: -30px;
+	}
+.a a{
+color:#412D1D;
+text-decoration: none;
 }
-body {
-	background-color: #FFFFFF;
+.style1 a{
+color:#FFFFFF;
+text-decoration: none;
 }
-.style4 {font-size: 36px}
+.style2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 26px;
+	font-style: italic;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 15px #B18056;
+	margin-top: -35px;	
+}
+.style3 {
+	font-size: 24px;
+	font-family: "Times New Roman", Times, serif;
+	color: #412D1D;
+	font-style: italic;
+	margin-top: -45px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	}
+body { 
+  background-color: #908893;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+h3 {
+color: #663366;
+font-family: "Century Gothic", "Trebuchet MS", Times, serif;
+font-size: 30px;
+font-weight: normal;
+}
+h4 {
+	color: #3E3E3E;
+	font-family: "Trebuchet MS", Times, serif;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	text-indent: 15px;
+}
+h4 a{
+color: #3E3E3E;
+}
+.footnote {
+	font-size: 10px;
+	color: #FFFFFF;
+	font-family: "Century Gothic", "Trebuchet MS", Times, serif;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	}
+.footnote a{
+	color: #FFFFFF;
+	}
 -->
 </style>
+</head>
+
 <body>
-<div class="wrapper">
-  <div class="trueheader">
-       <table width="883" height="60" border="0" align="center">
-      <tr>
-        <th width="455" class="bigname" scope="col"><h1 align="left"><a href="index.html">Jason Fung, pianist </a></h1>        </th>
-		<th width="152" scope="col"><h2><a href="music.html">Audio/Calendar</a></h2></th>
-        <th width="110" scope="col"><h2><a href="music.html"></a><a href="teaching.html">Lessons</a></h2>        </th>
-        <th width="102" scope="col"><h2><a href="contact.html">Contact</a></h2></th>
-        <th width="42" scope="col"><h2><a href="Resume.pdf">CV</a></h2></th>
-      </tr>
-    </table>
+<body onload="backgr()">
+<title>Jason Fung</title><div class="wrapper">
+<div class="header">
+  <div align="center" class="style1">
+    <p><a href="index.html">JASON FUNG</a></p>
   </div>
-  
-  <div class="BodyDiv">
-    	<div class="leftcolumn">
-		<!-- InstanceBeginEditable name="leftcol" -->
-	 	<div align="center"><img src="Media/P1650389.JPG" width="876" height="656" ></div>
-		<!-- InstanceEndEditable -->
-	 	</div>
-     
-	 	<div class="rightcolumn">	
-		 <!-- InstanceBeginEditable name="rightcol" -->
-		 <p>Raised in Hong Kong, Canadian pianist Jason Fung is currently studying under Maneli Pirzadeh and Jimmy Bri&egrave;re at Universit&eacute; de Montr&egrave;al. Prior to completing a Master of Music (2018) with David Jalbert at the University of Ottawa, Jason also studied at Queen's University of Kingston, Ontario, where he graduated from his Bachelor's of Music (Teacher: Dina Namer) with distinction and was winner of the Queen's University Concerto-Aria Competition in 2016.</p>
-		 <p>He is now active in the Ottawa-Montreal region, where he teaches and performs in solo, collaborative and church settings.</p>
-		 <p class="indent"  align="justify">&nbsp;</p>
-         <!-- InstanceEndEditable -->		</div>
+   <div align="center" class="style2">
+    <p class="style2">pianist</p>
   </div>
+  <div class="style3">
+  	<span class="a"></span>
+  	<span class="a"><a href="index.html">home</a></span>
+	<span class="a"><a href="music.html">music</a></span> 
+	<span class="a"><a href="teaching.html">lessons</a></span>
+	<span class="b"></span>
+	<span class="a">cv</span>
+	<span class="a"><a href="contact.html">contact</a></span>
+	<span class="a"><a href="blog/blog.html">blog</a></span></div>
 </div>
+
+<!-- Work in progress past this point - try to create new div class to contain two spans -->
+<div class = "contentwrapper">
+	<div class="content1"><img src="portraitcropped.png" width="540" height="510"></div>
+
+<div class="content1r">
+  <h3>BIO </h3>
+  <h4>Canadian-Hong Kong pianist Jason Fung is a student of Jimmy Bri&egrave;re at Universit&eacute; de Montr&eacute;al. Prior to completing a Master of Music (2018) with David Jalbert at the University of Ottawa, Jason studied at Queen's University, where he graduated from a B.Mus with distinction and was winner of the Queen's University Concerto-Aria Competition in 2016.</h4>
+  <h4> As a teacher, Jason's pedagogical interest and approach centers on building ergonomic  patterns of movement at the piano. Drawing from a lifelong background as an athlete, as well as a new-found interest in human anatomy brought on by a shoulder injury in 2015, it is his goal with every student to provide a means of playing that will allow for comfort at the piano - thus removing the barrier of physical discomfort from true self-expression. </h4>
+  <h4>During his time in Canada , Jason has also benefitted from additional work with world-class faculty, including pianists Angela Park, St&eacute;phane Lemelin, and Maneli Pirzadeh. He has also played in masterclass with Angela Hewitt and Jerome Lowenthal.  Inquire about lessons here or read articles on piano playing and teaching on his blog - here. </h4>
+</div>
+
+</div>
+<div class = "footnote" align="center">Website designed by owner/author. View the background images I took of Hong Kong here: (<a href="HK-red-incense-burner-summit-sunset-jason-fung.jpg" target="_blank">day</a>/<a href="HK-red-incense-burner-summit-lightsup-jason-fung.jpg.jpg" target="_blank">night</a>)</div> 
+
 </body>
-<!-- InstanceEnd --></html>
+
